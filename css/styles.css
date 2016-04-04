@@ -23,7 +23,7 @@ h5 {
 	margin: 30px 10% 30px 10%;
 }
 
-.container.section .title {
+.container.section .title, .container-fluid.section .title {
 	width: 100%;
 	text-align: center;
 	padding-bottom: 20px;
@@ -117,7 +117,7 @@ h5 {
 	margin: 30px 30% 30px 30%;
 }
 
-#services .row h2, h5 {
+#services .row h2, #services .row h5 {
 	font-family: 'Playfair Display', sans-serif;
 	font-style: italic;
 }
@@ -132,4 +132,29 @@ h5 {
 
 #services .row .green {
 	color: #76e9c7;
+}
+
+#contact {
+	background-color: #e1edef;
+	padding: 30px 0px;
+}
+
+#contact h3, #contact h5, #contact p {
+	width: 100%;
+	text-align: center;
+	margin: 3px;
+	padding-bottom: 15px;
+}
+
+#contact h3 {
+	color: #3ab890;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#contact h5 {
+	color: #da4444;
+	font-weight: bold;
+	font-style: italic;
 }
