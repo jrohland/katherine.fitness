@@ -4,6 +4,25 @@ body {
 	line-height: 2em;
 }
 
+h1 {
+	font-weight: bold;
+	color: #e97676;
+}
+
+h5 {
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+.container:before {
+	content: '';
+	display: block;
+	width: 80%;
+	height: 3px;
+	background-color: #e1edef;
+	margin: 30px 10% 30px 10%;
+}
+
 #header.navbar {
 	background-color:#fff;
 	max-height: 120px;
@@ -72,4 +91,13 @@ body {
 
 #home .carousel-item img {
 	width: 100%;
+}
+
+#meet {
+}
+
+#meet .meet-side-img {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 15px;
 }
