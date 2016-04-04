@@ -14,7 +14,7 @@ h5 {
 	margin-bottom: 0px;
 }
 
-.container:before {
+.container.section:before {
 	content: '';
 	display: block;
 	width: 80%;
