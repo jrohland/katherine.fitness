@@ -16,19 +16,21 @@
   </head>
   <body data-spy="scroll" data-target="#header">
 
-    <nav class="navbar navbar-fixed-top navbar-light bg-faded" id="header">
+    <nav class="navbar navbar-fixed-top" id="header">
       <a class="navbar-brand" href="#">
         <img alt="Fitness by Katherine" src="img/header-logo.png" />
       </a>
       <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapsingHeader">
         &#9776;
       </button>
-      <div class="nav navbar-nav collapse navbar-toggleable-xs pull-xs-right" id="collapsingHeader">
-        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#meet">Meet Katherine</a>
-        <a class="nav-item nav-link" href="#services">Services</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-        <a class="nav-item nav-link" href="blog/">Blog</a>
+      <div class="collapse navbar-toggleable-xs" id="collapsingHeader">
+        <div class="nav navbar-nav pull-xs-right">
+          <a class="nav-item nav-link active" href="#home">Home</a>
+          <a class="nav-item nav-link" href="#meet">Meet Katherine</a>
+          <a class="nav-item nav-link" href="#services">Services</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+          <a class="nav-item nav-link" href="blog/">Blog</a>
+        </div>
       </div>
     </nav>
 
