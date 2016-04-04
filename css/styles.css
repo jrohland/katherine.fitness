@@ -23,6 +23,12 @@ h5 {
 	margin: 30px 10% 30px 10%;
 }
 
+.container.section .title {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
 #header.navbar {
 	background-color:#fff;
 	max-height: 120px;
@@ -100,4 +106,30 @@ h5 {
 	float: left;
 	padding-right: 15px;
 	padding-bottom: 15px;
+}
+
+#services .row:before {
+	content: '';
+	display: block;
+	width: 40%;
+	height: 1px;
+	background-color: #ccc;
+	margin: 30px 30% 30px 30%;
+}
+
+#services .row h2, h5 {
+	font-family: 'Playfair Display', sans-serif;
+	font-style: italic;
+}
+
+#services .row h2 {
+	font-weight: bold;
+}
+
+#services .row .pink {
+	color: #e97676;
+}
+
+#services .row .green {
+	color: #76e9c7;
 }
