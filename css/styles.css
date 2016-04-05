@@ -40,7 +40,7 @@ h5 {
 }
 
 #header .navbar-brand {
-	padding-left: 50px;
+	padding-left: 40px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -62,7 +62,7 @@ h5 {
 	display: table-cell;
     vertical-align: middle;
     text-align: right;
-    padding-right: 50px;
+    padding-right: 40px;
     height: 70px;
 }
 
@@ -75,21 +75,37 @@ h5 {
     font-weight: bold;
     color: #b3ccd0;
 }
+
 #header.navbar .navbar-nav .nav-link.active {
 	color: #5e8791;
 }
 
 #header.navbar.shrink .navbar-nav .nav-link {
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
-#header-spacer.shrink {
-	height: 70px;
+#header.navbar .navbar-toggler {
+	padding-top: 25px;
+}
+
+@media (max-width: 840px) {
+	#header.navbar {
+		background-color: #e1edef;
+		max-height: 70px;
+	}
+
+	#header.navbar .navbar-brand>img {
+		max-height: 70px;
+	}
+
+	#header.navbar .navbar-nav .nav-link {
+		padding-top: 25px;
+	}
 }
 
 #home {
 	background-color: #e1edef;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 
 #home .carousel-item img {
