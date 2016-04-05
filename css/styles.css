@@ -58,18 +58,7 @@ h5 {
 	max-height: 70px;
 }
 
-#header.navbar .navbar-nav {
-	display: table-cell;
-    vertical-align: middle;
-    text-align: right;
-    padding-right: 40px;
-    height: 70px;
-}
-
 #header.navbar .navbar-nav .nav-link {
-	padding-top: 45px;
-	padding-left: 15px;
-	padding-right: 15px;
 	text-transform: uppercase;
 	font-size: 14px;
     font-weight: bold;
@@ -80,8 +69,43 @@ h5 {
 	color: #5e8791;
 }
 
-#header.navbar.shrink .navbar-nav .nav-link {
-	padding-top: 25px;
+@media (min-width: 768px) {
+	#header.navbar .navbar-nav {
+		display: table-cell;
+	    vertical-align: middle;
+	    text-align: right;
+	    padding-right: 40px;
+	    height: 70px;
+	}
+
+	#header.navbar .navbar-nav .nav-link {
+		padding-top: 45px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#header.navbar.shrink .navbar-nav .nav-link {
+		padding-top: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	#header.navbar .navbar-nav {
+		width: 150px;
+	}
+
+	#header.navbar .navbar-nav .nav-item {
+		width: 100%;
+		float: none;
+		background-color: #fcfcfc;
+		text-align: right;
+		margin-left: 0px;
+		padding-right: 10px;
+	}
+
+	#header.navbar .navbar-nav .nav-item:hover {
+		background-color: #eee;
+	}
 }
 
 #header.navbar .navbar-toggler {

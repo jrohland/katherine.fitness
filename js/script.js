@@ -28,5 +28,5 @@ $("#header a[href^='#']").on('click', function(e) {
 });
 
 $('body').scrollspy({
-   offset: 60
+   offset: 65
 });
