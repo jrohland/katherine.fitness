@@ -15,11 +15,9 @@ $("#header a[href^='#']").on('click', function(e) {
    // store hash
    var hash = this.hash;
 
-   var offset = ($("#header").hasClass("shrink")) ? 65 : 115;
-
    // animate
    $('html, body').animate({
-       scrollTop: $(this.hash).offset().top - offset
+       scrollTop: $(this.hash).offset().top - 60
      }, 500, function(){
 
        // when done, add hash to url
@@ -30,5 +28,5 @@ $("#header a[href^='#']").on('click', function(e) {
 });
 
 $('body').scrollspy({
-   offset: 115
+   offset: 60
 });
