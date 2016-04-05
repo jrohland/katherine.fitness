@@ -14,9 +14,9 @@
 
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body data-spy="scroll" data-target="#header">
+  <body>
 
-    <nav class="navbar navbar-fixed-top" id="header">
+    <nav class="navbar navbar-fixed-top" id="header" role="navigation">
       <a class="navbar-brand" href="#">
         <img alt="Fitness by Katherine" src="img/header-logo.png" />
       </a>
@@ -24,17 +24,15 @@
         &#9776;
       </button>
       <div class="collapse navbar-toggleable-xs" id="collapsingHeader">
-        <div class="nav navbar-nav pull-xs-right">
-          <a class="nav-item nav-link active" href="#home">Home</a>
-          <a class="nav-item nav-link" href="#meet">Meet Katherine</a>
-          <a class="nav-item nav-link" href="#services">Services</a>
-          <a class="nav-item nav-link" href="#contact">Contact</a>
-          <a class="nav-item nav-link" href="blog/">Blog</a>
-        </div>
+        <ul class="nav navbar-nav pull-xs-right">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a>
+          <li class="nav-item"><a class="nav-link" href="#meet">Meet Katherine</a>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
+          <li class="nav-item"><a class="nav-link" href="blog/">Blog</a>
+        </ul>
       </div>
     </nav>
-
-    <div id="header-spacer"></div>
 
     <div class="container-fluid" id="home">
       <div class="container">
